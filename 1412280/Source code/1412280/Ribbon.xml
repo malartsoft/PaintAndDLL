@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application xmlns="http://schemas.microsoft.com/windows/2009/Ribbon">
+  
+  
+  <Application.Commands>
+    
+    <Command Name="cmdTabHome"
+             Comment="Drawing the shape."
+             Symbol="IDC_CMD_TAB_HOME"
+             Id="10000" >
+      <Command.LabelTitle>
+        <String Id ="200">Draw</String>
+      </Command.LabelTitle>
+    </Command>
+    
+    <Command Name="cmdGroupLine"/>
+    <Command Name="cmdGroupRectangle"/>
+    <Command Name="cmdGroupEllipse"/>
+    <Command Name="cmdGroupClearScreen"/>
+    
+    <Command Name="cmdButtonLine"
+             Symbol="ID_DRAW_LINE"
+             Id="510">
+      <Command.LabelTitle>
+        <String Id ="511">Line</String>
+      </Command.LabelTitle>
+    
+      <Command.LargeImages>
+        <Image Id="512">ICON\Line.ico</Image>
+      </Command.LargeImages>
+    </Command>
+    
+    <Command Name="cmdButtonRectangle"
+             Symbol="ID_DRAW_RECTANGLE"
+             Id="513">
+      <Command.LabelTitle>
+        <String Id ="514">Rectangle</String>
+      </Command.LabelTitle>
+    <Command.LargeImages>
+        <Image Id="515">ICON\Rectangle.ico</Image>
+      </Command.LargeImages>
+    </Command>
+  
+    <Command Name="cmdButtonEllipse"
+               Symbol="ID_DRAW_ELLIPSE"
+               Id="516">
+        <Command.LabelTitle>
+          <String Id ="517">Ellipse</String>
+        </Command.LabelTitle>
+        <Command.LargeImages>
+        <Image Id="518">ICON\Ellipse.ico</Image>
+        </Command.LargeImages>
+      </Command>  
+    
+    <Command Name="cmdButtonClearScreen"
+             Symbol="ID_CLEAR"
+             Id="519">
+      <Command.LabelTitle>
+        <String Id ="520">Clear</String>
+      </Command.LabelTitle>
+    
+      <Command.LargeImages>
+        <Image Id="521">ICON\Clear.ico</Image>
+      </Command.LargeImages>
+    </Command>
+    
+   <Command Name="cmdOpenFile" Symbol="IDC_CMD_OPEN_FILE">
+          <Command.LabelTitle>
+            <String Id ="777">Open</String>
+          </Command.LabelTitle>
+          <Command.LargeImages>
+            <Image Id ="778">ICON\\OpenFile.ico</Image>
+          </Command.LargeImages>
+        </Command>
+    
+    <Command Name="cmdSaveFile" Symbol="IDC_CMD_SAVE_FILE">
+          <Command.LabelTitle>
+            <String Id ="779">Save</String>
+          </Command.LabelTitle>
+      <Command.LargeImages>
+            <Image Id ="780">ICON\\SaveFile.ico</Image>
+          </Command.LargeImages>
+        </Command>
+    
+    <Command Name="cmdExit" Symbol="IDC_CMD_EXIT">
+          <Command.LabelTitle>
+            <String Id ="781">Exit</String>
+          </Command.LabelTitle>
+           <Command.LargeImages>
+            <Image Id ="782">ICON\\ExitFile.ico</Image>
+          </Command.LargeImages>
+        </Command>
+  
+  </Application.Commands>
+
+  
+  <Application.Views>
+    <Ribbon>
+      
+      <Ribbon.ApplicationMenu>
+        <ApplicationMenu CommandName="cmdFileMenu">
+          
+         <MenuGroup Class="MajorItems">
+            <Button CommandName="cmdOpenFile" />
+          </MenuGroup>
+          
+          <MenuGroup Class="MajorItems">
+            <Button CommandName="cmdSaveFile" />
+          </MenuGroup>
+          
+          <MenuGroup Class="MajorItems">
+            <Button CommandName="cmdExit" />
+          </MenuGroup>
+        </ApplicationMenu>
+      </Ribbon.ApplicationMenu>
+        
+      <Ribbon.Tabs>
+        <Tab CommandName="cmdTabHome">
+          
+          <Group CommandName="cmdGroupLine" SizeDefinition="OneButton">
+            <Button CommandName="cmdButtonLine" />
+          </Group>
+          
+          <Group CommandName="cmdGroupRectangle" SizeDefinition="OneButton">
+            <Button CommandName="cmdButtonRectangle" />
+          </Group>
+          
+          <Group CommandName="cmdGroupEllipse" SizeDefinition="OneButton">
+            <Button CommandName="cmdButtonEllipse" />
+          </Group>
+           <Group CommandName="cmdGroupClearScreen" SizeDefinition="OneButton">
+            <Button CommandName="cmdButtonClearScreen" />
+          </Group>
+      
+        </Tab>
+      </Ribbon.Tabs>
+    
+  
+    </Ribbon>
+  </Application.Views>
+</Application>
+		

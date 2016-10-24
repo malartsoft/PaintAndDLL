@@ -1,0 +1,60 @@
+// ******************************************************************************
+// * This is an automatically generated file containing the ribbon resource for *
+// * your application.                                                          *
+// ******************************************************************************
+
+#include ".\RibbonIDs.h"
+
+STRINGTABLE 
+BEGIN
+    IDC_CMD_TAB_HOME_LabelTitle_RESID L"Draw" /* LabelTitle IDC_CMD_TAB_HOME_LabelTitle_RESID: Drawing the shape. */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_DRAW_LINE_LabelTitle_RESID L"Line" /* LabelTitle ID_DRAW_LINE_LabelTitle_RESID: (null) */
+END
+
+ID_DRAW_LINE_LargeImages_RESID    IMAGE    "ICON\Line.ico" /* LargeImages ID_DRAW_LINE_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_DRAW_RECTANGLE_LabelTitle_RESID L"Rectangle" /* LabelTitle ID_DRAW_RECTANGLE_LabelTitle_RESID: (null) */
+END
+
+ID_DRAW_RECTANGLE_LargeImages_RESID    IMAGE    "ICON\Rectangle.ico" /* LargeImages ID_DRAW_RECTANGLE_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_DRAW_ELLIPSE_LabelTitle_RESID L"Ellipse" /* LabelTitle ID_DRAW_ELLIPSE_LabelTitle_RESID: (null) */
+END
+
+ID_DRAW_ELLIPSE_LargeImages_RESID    IMAGE    "ICON\Ellipse.ico" /* LargeImages ID_DRAW_ELLIPSE_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CLEAR_LabelTitle_RESID L"Clear" /* LabelTitle ID_CLEAR_LabelTitle_RESID: (null) */
+END
+
+ID_CLEAR_LargeImages_RESID    IMAGE    "ICON\Clear.ico" /* LargeImages ID_CLEAR_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    IDC_CMD_OPEN_FILE_LabelTitle_RESID L"Open" /* LabelTitle IDC_CMD_OPEN_FILE_LabelTitle_RESID: (null) */
+END
+
+IDC_CMD_OPEN_FILE_LargeImages_RESID    IMAGE    "ICON\\OpenFile.ico" /* LargeImages IDC_CMD_OPEN_FILE_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    IDC_CMD_SAVE_FILE_LabelTitle_RESID L"Save" /* LabelTitle IDC_CMD_SAVE_FILE_LabelTitle_RESID: (null) */
+END
+
+IDC_CMD_SAVE_FILE_LargeImages_RESID    IMAGE    "ICON\\SaveFile.ico" /* LargeImages IDC_CMD_SAVE_FILE_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    IDC_CMD_EXIT_LabelTitle_RESID L"Exit" /* LabelTitle IDC_CMD_EXIT_LabelTitle_RESID: (null) */
+END
+
+IDC_CMD_EXIT_LargeImages_RESID    IMAGE    "ICON\\ExitFile.ico" /* LargeImages IDC_CMD_EXIT_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    cmdFileMenu_LabelTitle_RESID L"Label:cmdFileMenu" /* LabelTitle cmdFileMenu_LabelTitle_RESID: (null) */
+END
+
+APPLICATION_RIBBON    UIFILE    "Ribbon.bml"
